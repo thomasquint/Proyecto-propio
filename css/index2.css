@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,
+
+#nav {  
+    background: rgb(243, 66, 66,0.4);
+    width: 100%;
+    height: 70px;         
+}
+
+#nav .logo {   
+    height: 40px;   
+}
+
+#nav .menu {
+     text-align: right;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+#banner {
+    background-color: white;
+    height: 420px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;    
+}
+
+#banner .items {
+    width: 15%;
+    border: 1px solid #999;
+    margin: 12px;
+    text-align: center;
+}
+
+#banner .oferta {
+    width: 30%;   
+    margin: 12px;
+    text-align: center;
+    padding: 12px;
+}
+
+#banner .oferta img {
+    width: 600px;
+    height: 380px;
+}
+
+#banner .items img {
+    width: 100%;
+}
+#productos {
+    width: 50%;
+    padding: 220px;
+}
+
+#productos-2 {
+    width: 50%;
+    padding: 220px;
+}
+
+.contenedor-footer {
+    height: 80px;
+    
+}
+
+#contacto {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin: 0%;
+    height: 150px;
+}
+ #contacto p {
+     
+     align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+     color: black;
+     text-align: left;
+     font-weight: bold;
+     padding: 6px;
+     margin: 12px;    
+ }
+
+ #medios p {
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    padding: 6px;
+    font-weight: bold;
+    margin: 12px
+    
+ }
+
+
+
+ .item-cont {
+    float: left;
+}
+
+.contenedor-prod #futbol {
+    background-color: red;
+    height: 300px;
+    width: 50%;
+}
+
+.contenedor-prod #basquet {
+    background-color: rgb(69, 184, 88);
+    height: 300px;
+    width: 50%;
+}
+
+.productos {
+    float: left;
+}
+
